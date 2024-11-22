@@ -1,16 +1,91 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-<title>Hello World!</title>
-<link rel="stylesheet" href="bluestyle.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Omar Adrián García Maya</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(45deg, #f06, #4a90e2);
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+            overflow: hidden;
+        }
+
+        h1 {
+            font-size: 3em;
+            margin: 0;
+            letter-spacing: 2px;
+            text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+            color: #fff;
+        }
+
+        h2 {
+            font-size: 1.5em;
+            margin-top: 10px;
+            color: #ffe600;
+        }
+
+        .container {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.6);
+        }
+
+        .button {
+            background-color: #ffe600;
+            color: #000;
+            padding: 15px 30px;
+            text-decoration: none;
+            font-size: 1.2em;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+        }
+
+        .button:hover {
+            background-color: #f06;
+            color: #fff;
+            transform: translateY(-3px);
+        }
+
+        .social-icons {
+            margin-top: 20px;
+        }
+
+        .social-icons a {
+            margin: 0 15px;
+            color: #fff;
+            font-size: 2em;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .social-icons a:hover {
+            color: #ffe600;
+        }
+    </style>
 </head>
 <body>
 
-<h1>Hello world!</h1>
-<div><img src="img_hello_world.jpg" alt="Hello World from Space" style="width:100%;max-width:640px"></div>
-<p>This is the first file in my new Git Repo.</p>
-<p>This line is here to show how merging works.</p>
-<div><img src="img_hello_git.jpg" alt="Hello Git" style="width:100%;max-width:640px"></div>
+    <div class="container">
+        <h1>Omar Adrián García Maya</h1>
+        <h2>Bienvenido a mi página personal</h2>
+        <p>Un lugar para explorar más sobre mí, mis proyectos y mi pasión por la tecnología.</p>
+        <a href="#" class="button">Saber más</a>
+
+        <div class="social-icons">
+            <a href="#" target="_blank">🌐</a>
+            <a href="#" target="_blank">📧</a>
+            <a href="#" target="_blank">💼</a>
+        </div>
+    </div>
 
 </body>
 </html>
